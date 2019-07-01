@@ -8,10 +8,11 @@ import (
 	"net/http"
 	"os"
 
+	"github.com/dpb587/google-photos-exporter/photoslibrary/v1"
+
 	"golang.org/x/net/context"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/google"
-	"google.golang.org/api/photoslibrary/v1"
 )
 
 // Retrieve a token, saves the token, then returns the generated client.
